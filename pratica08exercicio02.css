@@ -1,0 +1,46 @@
+.slide {
+	display: none;   /* display: none   >>>   oculta todas as imagens do display, impede que todas as imagens fiquem carregadas simeultaneamente no html. */
+	width: 620px;
+	height: 670px;
+	margin: 0 auto;
+	border: 2px solid black;
+	margin-top: 100px;
+}
+.imgSlide {
+	width: 600px;
+	height: 600px;
+	padding-top: 20px;
+	padding-left: 10px;
+
+}
+.texto {
+	font-size: 30px;
+	color: black;
+	width: 100%;
+	text-align: center;
+	/*height: 30px;*/
+	padding: 5px 0 0 0;
+	font-weight: normal;
+}
+.ant {
+	margin-left: 0;
+}
+.post {
+	right: 0;
+}
+.container {
+	position: relative;
+	width: 620px;
+	margin: 0 auto;
+	margin-top: -50px;
+}
+.ant, .post {
+	position: absolute;
+	cursor: pointer;
+	font-size: 25px;
+}
+h1 {
+	text-align: center;
+	font-size: 42px;
+	
+}
